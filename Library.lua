@@ -3552,6 +3552,7 @@ function Library:CreateWindow(...)
                     CursorOutline.PointC = Cursor.PointC;
 
                     Cursor.Visible = _G.Settings.CustomCursor;
+                    CursorOutline.Visible = _G.Settings.CustomCursor;
 
                     RenderStepped:Wait();
                 end;
